@@ -20,7 +20,7 @@ import java.util.List;
 public class IOUState implements ContractState {
 
     @ConstructorForDeserialization
-    private IOUState(Amount<Currency> amount, Party lender, Party borrower, Amount<Currency> paid, UniqueIdentifier linearId) {
+    private IOUState(Amount<Currency> amount, Party lender, Party borrower, Amount<Currency> paid) {
     }
 
     public IOUState() {
